@@ -50,6 +50,7 @@
     font-size: 16px;
     line-height: 20px;
     margin: 0;
+    gap: 20px;
 }
 
 .nav__link {
@@ -74,7 +75,7 @@
     letter-spacing: -0.6px;
 }
 
-.specialty__coffee {
+.header__title-highlight {
     display: block;
     color: #3F96F3;
     font-style: italic;
@@ -84,7 +85,7 @@
     line-height: 72px;
 }
 
-.triple__peaks__library {
+.header__title-regular {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -93,7 +94,7 @@
     letter-spacing: -0.6px;
 }
 
-.header__paragraph {
+.header__description {
     font-family: "Noto Serif";
     font-style: normal;
     font-weight: normal;
@@ -110,17 +111,17 @@
     margin-top: auto;
 }
 
-.header__footer__list-items {
+.header__footer-list-items {
     list-style-type: none;
     padding-left: 0px;
 }
 
-.header__footer__address {
+.header__footer-address {
     margin-top: auto;
     margin-left: auto;
 }
 
-.recipes {
+.recipe {
     background-image:url(../images/background_recipes.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -160,17 +161,12 @@
     padding-bottom: 215px;
 }
 
-.aeropress__video {
+.recipe__iframe {
     width: 480px;
     height: 273px;
 }
 
-.frenchpress__video {
-    width: 480px;
-    height: 273px;
-}
-
-.video__caption {
+.recipe__video-caption {
     display: flex;
     justify-content: space-between;
     font-family: "Inter";
