@@ -59,7 +59,7 @@
 }
 
 .nav__link:last-of-type {
-    padding: none;
+    padding: 0;
 }
 
 .header__title {
