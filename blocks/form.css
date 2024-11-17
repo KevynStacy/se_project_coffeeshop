@@ -12,6 +12,8 @@
     display: flex;
     justify-content: center;
     border: none;
+    margin: 0;
+    padding: 0;
 }
 
 .form__label {
@@ -57,7 +59,7 @@
 }
 
 .form__button:hover {
-    background-color: #3F96F3;
+    background-color: #3f96f3;
     border-radius: 4px;
     font-style: normal;
     font-weight: 500;
@@ -69,6 +71,7 @@
     margin-bottom: 32px;
     color: #ffffff;
     border: none;
+    transition-duration: 1s;
 }
 
 .form__checkbox {

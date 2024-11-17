@@ -34,7 +34,7 @@
     margin-bottom: 16px;
 }
 
-.footer__list-item: last-of-type {
+.footer__list-item:last-of-type {
     margin: 0;
 }
 
@@ -51,11 +51,8 @@
 }
 
 .footer__social-link:hover {
-    margin: 0;
-    font-size: 16px;
-    line-height: 20px;
     opacity: 70%;
-    transition: 1s
+    transition-duration: 0.5s;
 }
 
 .footer__copyright {

@@ -21,7 +21,7 @@
     padding: 100px 80px 173px;
     position: relative;
     overflow: hidden;
-    z-index: 0;
+    z-index: 1;
 }
 
 .about__title {
@@ -37,6 +37,7 @@
     font-size: 20px;
     line-height: 30px;
     margin-top: 19px;
+    font-family: "Inter", Arial, sans-serif;
 }
 
 .about__paragraph {
@@ -60,13 +61,5 @@
 }
 
 .about__circle_animation_blurred {
-    background-color: #1878DC;
-    width: 426px;
-    height: 426px;
-    border-radius: 50%;
-    position: absolute;
-    top: -152px;
-    left: -129px;
-    z-index: -1;
     animation: pulsate 1.3s ease-in-out 0s infinite;
 }
