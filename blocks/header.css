@@ -5,6 +5,9 @@
     flex-direction: column;
     position: relative;
     background-image: url(../images/background_header.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
     /* used z index on header and header image because the image covers up the header text when the viewport is small */
 }
@@ -58,7 +61,7 @@
 .header__footer {
     display: flex;
     margin-top: auto;
-    font-weight: 500px;
+    font-weight: 500;
     color: #6f6f6f;
 }
 

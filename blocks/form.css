@@ -60,17 +60,6 @@
 
 .form__button:hover {
     background-color: #3f96f3;
-    border-radius: 4px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    width: 385px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 32px;
-    color: #ffffff;
-    border: none;
     transition-duration: 1s;
 }
 
